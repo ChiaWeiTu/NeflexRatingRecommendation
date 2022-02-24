@@ -1,7 +1,7 @@
 # NeflexRatingRecommendation
 Netflix Rating Recommendation Analysis-Python
 
-     Introduction and discovery 
+Introduction and discovery 
 
 •	Background
 
@@ -25,9 +25,9 @@ The dataset is about Netflix each title (movie name)'s rating information, inclu
 
 
 
-    Model Planning and Implementation 
-#!pip install yellowbrick
-# import yellowbrick library
+Model Planning and Implementation 
+!pip install yellowbrick
+import yellowbrick library
 from yellowbrick.cluster import KElbowVisualizer
 
 The original data have overlapping the same ages but different TV rating names, it can be categorized to 5 different age levels. And the user rating score is from the lowest score 55 to highest score 99 excluding the 0 (unrated movie). So, I planned to divide the score to two results-Not Recommend and Highly Recommend. Over 80 are yes for recommend, others are no for recommend. For the Not Recommend and Highly Recommend target, it can change it to the binary category.
@@ -41,7 +41,7 @@ I use list to store every machine learning models and best parameter. And then z
 
 
 
-   Concluding Remarks 
+ Concluding Remarks 
 
 As the number of people subscribing and watching Netflix grew, the task became a big data project. Netflix rating recommendation system can help viewers by choosing among numerous options available to them through the streaming service. It also can filter the program rated group and remove unnecessary information from the data stream before it reaches to them. 
 Moreover, through the highly recommendation system, it can increase the viewer’s trust of selecting the films from recommendation which they like a lot and then giving a nice feedback.
